@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2F363D;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    max-width: 100vw;
+}
+
+#my-portfolio-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    max-width: 100vw;
+}
+
+#about-me-container {
+    background-color: #222222;
+    max-width: 25vw;
+    width: 25vw;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.profile-picture {
+    background-image: url("images/profile-picture.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    height: 175px;
+    width: 175px;
+}
+
+.full-name {
+    font-size: 20px;
+    color: #e6e5e5;
+    font-weight: 600;
+}
+
+.contact-links-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-link {
+    color: #e6e5e5;
+    text-decoration: none;
+}
+
+.social-links-container {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.resume {
+    width: 100px;
+    background-color: #28A745;
+    border: none;
+    height: 25px;
+    border-radius: 10px;
+    color: #e6e5e5;
+}
+
+#right-content-container {
+    max-width: 75vw;
+    width: 75vw;
+    padding: 25px;
+
+}
+
+.my-projects {
+    color: #e6e5e5;
+}
+
+#my-repos-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 65vw;
+}
+
+.repo-link {
+    text-decoration: none;
+}
+
+.my-repo-outer {
+    background-color: #eaeaea;
+    border-radius: 5px;
+    height: 100px;
+    margin: 10px;
+    width: 300px;
+
+    margin-left: 0px;
+}
+
+.my-repo-outer:hover {
+    background-color: #e6e5e5;
+    transform: scale(1.05);
+}
+
+.my-repo-inner {
+    padding: 10px;
+}
+
+.repo-name {
+    color: #67A2E6;
+    font-size: 18px;
+}
+
+.repo-description {
+    color: #171717;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.repo-programming-language {
+    color: #171717;
+    font-size: 12px;
+}
