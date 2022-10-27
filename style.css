@@ -63,6 +63,17 @@ body {
     color: #e6e5e5;
 }
 
+.about-me-container {
+    color: #e6e5e5;
+    max-width: 85%;
+    padding-top: 15px;
+}
+
+.expience-with {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
 #right-content-container {
     max-width: 75vw;
     width: 75vw;
