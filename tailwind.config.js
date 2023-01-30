@@ -3,13 +3,9 @@ module.exports = {
   content: ["./**/*.{html,js,css}"],
   theme: {
     color: {
-      'white': '#FFFFFF',
-      'gray-light': '#F6F6F6',
-      'gray-dark': '#707070',
-      'black': '#424242',
-      'green-light': '#47E696',
-      'purple-light': '#F7F5FF',
-      'purple-dark': '#F1ECFF'
+      'white': '#E0E0E0',
+      'black': '#101010',
+      'red': '#D81E1E',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
