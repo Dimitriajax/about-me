@@ -1,4 +1,4 @@
-const text = 'Hi, I am Dimitri Brontsema, a 18 year old full stack web developer student located in Groningen, the Netherlands. ';
+const text = 'Hi, I am Dimitri Brontsema, a 19 year old full stack web developer student located in Groningen, the Netherlands. ';
 const typingSpeed = 50;
 const typingText = document.querySelector('#typing-text');
 
